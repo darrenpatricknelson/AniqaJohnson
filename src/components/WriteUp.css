@@ -1,0 +1,15 @@
+.write_up_container {
+  width: 1200px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.write_up_content {
+  padding: 50px 20px;
+}
+
+.write_up_border {
+  height: 1px;
+  width: 30px;
+  border-bottom: 2px solid #fff;
+}
