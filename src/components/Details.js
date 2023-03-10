@@ -4,21 +4,21 @@ const Details = () => {
     return <div className='details_container'>
         <div className='details_content'>
             <div className="who_i_am">
-                <h3>Who I am</h3>
-                <div className='details_border'></div>
+                <h3>Who <span className="text_color">I am</span></h3>
+                <div className='space_border'></div>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus suscipit impedit qui nemo inventore alias eligendi distinctio, delectus aperiam reiciendis, provident praesentium adipisci, commodi mollitia quo laudantium laborum ea.</p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus suscipit impedit qui nemo inventore alias eligendi distinctio, delectus aperiam reiciendis, provident praesentium adipisci, commodi mollitia quo laudantium laborum ea.</p>
             </div>
             <div className="what_i_do">
-                <h3>Who I am</h3>
-                <div className='details_border'></div>
+                <h3>Who <span className="text_color">I am</span></h3>
+                <div className='space_border'></div>
 
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus suscipit impedit qui nemo inventore alias eligendi distinctio, delectus aperiam reiciendis, provident praesentium adipisci, commodi mollitia quo laudantium laborum ea.</p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus suscipit impedit qui nemo inventore alias eligendi distinctio, delectus aperiam reiciendis, provident praesentium adipisci, commodi mollitia quo laudantium laborum ea.</p>
             </div>
             <div className="get_in_touch">
-                <h3>Get in touch</h3>
-                <div className='details_border'></div>
+                <h3>Get <span className="text_color">in touch</span></h3>
+                <div className='space_border'></div>
                 <div className="contact_details">
                     <ul>
                         <li><a href='#.'>Phone number</a></li>

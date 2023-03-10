@@ -1,7 +1,6 @@
 .details_container {
   width: 1200px;
   margin: 0 auto;
-  border: 1px solid black;
 }
 
 .details_content {
@@ -10,21 +9,15 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.details_border {
-  height: 1px;
-  width: 30px;
-  border-bottom: 2px solid #fff;
-}
-
 .who_i_am,
-.what_i_do,
-.get_in_touch {
-  margin: 20px;
+.what_i_do {
+  margin-right: 20px;
+  padding-right: 20px;
 }
 
 .who_i_am,
 .what_i_do {
-  border-right: 1px solid #fff;
+  border-right: 2px solid #247ba0;
 }
 
 .contact_details {
@@ -44,13 +37,11 @@
 
 /* navbar links */
 .contact_details li a {
-  color: black;
-  width: 100%;
+  color: #247ba0;
   text-decoration: none;
 }
 
 .contact_details li a:hover {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #247ba0;
   cursor: pointer;
-  color: #fff;
 }

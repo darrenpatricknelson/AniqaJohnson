@@ -1,6 +1,17 @@
 .App {
   margin: 0;
   padding: 0;
+  background-color: #cfd8d7;
+}
+
+.text_color {
+  color: #247ba0;
+}
+
+.space_border {
+  height: 1px;
+  width: 30px;
+  border-bottom: 2px solid #247ba0;
 }
 
 .navbar {
@@ -12,26 +23,28 @@
 
 .backdrop {
   height: 60vh;
+  /* Remove height once image is in place  */
+  /* potentially add a margin  */
   text-align: center;
-  background-color: blue;
+  border-bottom: 1px solid #247ba03d;
 }
 
-.backdrop p {
-  padding-top: 400px;
-  margin: 0;
+.backdrop-img {
+  height: 60vh;
+  width: 100%;
 }
 
 .write_up {
   height: 40vh;
+  margin: 20px;
   padding: 20px 0;
-  background-color: green;
+  border-bottom: 1px solid #247ba03d;
 }
 
 .details {
-  height: 500px;
-  background-color: yellow;
+  margin: 20px;
 }
 
 .footer {
-  background-color: grey;
+  border-top: 1px solid #247ba0;
 }

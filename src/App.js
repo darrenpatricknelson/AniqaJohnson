@@ -3,6 +3,7 @@ import Details from './components/Details.js';
 import Footer from './components/Footer.js';
 import Header from './components/Header.js';
 import WriteUp from './components/WriteUp.js';
+import logo from './images/ocean.jpg';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <Header />
       </div>
       <div className='backdrop'>
-        <p> background image will go here </p>
+        <img src={logo} className="backdrop-img" alt="Ocean backdrop" />
       </div>
       <div className='write_up'>
         <WriteUp />

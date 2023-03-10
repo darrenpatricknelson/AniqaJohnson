@@ -1,6 +1,13 @@
+import React, { useState } from 'react';
 import './Header.css';
 
-const header = () => {
+const Header = () => {
+    const [windowPosition, setWindowPosition] = useState(false);
+
+    window.onscroll = function (e) {
+        setWindowPosition(true);
+    };
+
     return <div className='header_container'>
         <div className="header_inner_container">
             <div className='header_title_container'>
@@ -24,4 +31,4 @@ const header = () => {
     </div>;
 };
 
-export default header;
+export default Header;
