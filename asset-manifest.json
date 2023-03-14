@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/AniqaJohnson/static/css/main.89ce2283.css",
-    "main.js": "/AniqaJohnson/static/js/main.c3b2b339.js",
+    "main.css": "/AniqaJohnson/static/css/main.9631e111.css",
+    "main.js": "/AniqaJohnson/static/js/main.1d7e104d.js",
     "static/media/ocean.jpg": "/AniqaJohnson/static/media/ocean.14aee8c2ed2954b07f23.jpg",
     "index.html": "/AniqaJohnson/index.html",
-    "main.89ce2283.css.map": "/AniqaJohnson/static/css/main.89ce2283.css.map",
-    "main.c3b2b339.js.map": "/AniqaJohnson/static/js/main.c3b2b339.js.map"
+    "main.9631e111.css.map": "/AniqaJohnson/static/css/main.9631e111.css.map",
+    "main.1d7e104d.js.map": "/AniqaJohnson/static/js/main.1d7e104d.js.map"
   },
   "entrypoints": [
-    "static/css/main.89ce2283.css",
-    "static/js/main.c3b2b339.js"
+    "static/css/main.9631e111.css",
+    "static/js/main.1d7e104d.js"
   ]
 }
