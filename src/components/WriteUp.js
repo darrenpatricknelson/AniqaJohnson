@@ -1,7 +1,11 @@
+import Spacer from './Spacer.js';
 import './WriteUp.css';
+
 
 const WriteUp = () => {
     return <div className='write_up_container'>
+        <Spacer />
+
         <div className="write_up_content">
             <h2>Grief <span className="text_color">& Loss</span></h2>
             <div className='space_border'></div>

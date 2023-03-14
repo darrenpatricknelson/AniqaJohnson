@@ -1,4 +1,5 @@
 .write_up_container {
+  position: relative;
   width: 1200px;
   margin: 0 auto;
 }

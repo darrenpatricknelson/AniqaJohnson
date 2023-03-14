@@ -3,7 +3,14 @@
   margin: 0;
   height: 150px;
   position: absolute;
-  border: 1px solid black;
+  transition: all 0.4s;
+  border-bottom: 2px solid transparent;
+}
+
+.header_container_background {
+  background-color: #247ba0a0;
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid #fff;
 }
 
 .header_inner_container {
@@ -34,6 +41,7 @@
 .navbar_list {
   list-style-type: none;
   float: right;
+  padding-top: 20px;
 }
 
 .navbar_list li {

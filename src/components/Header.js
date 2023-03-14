@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import './Header.css';
 
 const Header = () => {
-    const [windowPosition, setWindowPosition] = useState(false);
+    const [scrollPosition, setScrollPosition] = useState(0);
 
     window.onscroll = function (e) {
-        setWindowPosition(true);
+        setScrollPosition(window.scrollY);
     };
 
-    return <div className='header_container'>
+    return <div className={scrollPosition === 0 ? 'header_container' : 'header_container header_container_background'}>
         <div className="header_inner_container">
             <div className='header_title_container'>
                 <div className="header_title">
@@ -21,10 +21,10 @@ const Header = () => {
             <div className='header_shortcuts_container'>
                 <ul className='navbar_list'>
                     <li><a href='#top' target='_self' rel='noopener'>Home</a></li>
-                    <li><a href='#top' target='_self' rel='noopener'>Grief & Loss</a></li>
-                    <li><a href='#top' target='_self' rel='noopener'>Who I Am</a></li>
-                    <li><a href='#top' target='_self' rel='noopener'>What I Do</a></li>
-                    <li><a href='#top' target='_self' rel='noopener'>Get inTouch</a></li>
+                    <li><a href='#grief_loss' target='_self' rel='noopener'>Grief & Loss</a></li>
+                    <li><a href='#who_i_am' target='_self' rel='noopener'>Who I Am</a></li>
+                    <li><a href='#what_i_do' target='_self' rel='noopener'>What I Do</a></li>
+                    <li><a href='#get_in_touch' target='_self' rel='noopener'>Get in Touch</a></li>
                 </ul>
             </div>
         </div>
