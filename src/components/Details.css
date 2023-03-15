@@ -1,5 +1,6 @@
 .details_container {
-  width: 1200px;
+  max-width: 1200px;
+  min-width: 360px;
   margin: 0 auto;
 }
 
@@ -13,10 +14,6 @@
 .what_i_do {
   margin-right: 20px;
   padding-right: 20px;
-}
-
-.who_i_am,
-.what_i_do {
   border-right: 2px solid #247ba0;
 }
 
@@ -30,18 +27,39 @@
   margin: 10px;
 }
 
-.contact_details li:hover {
+.contact_details p:hover {
   cursor: pointer;
   color: #fff;
 }
 
 /* navbar links */
-.contact_details li a {
+.contact_details p a {
   color: #247ba0;
   text-decoration: none;
 }
 
-.contact_details li a:hover {
+.contact_details p a:hover {
   border-bottom: 1px solid #247ba0;
   cursor: pointer;
+}
+
+/* responsiveness */
+
+@media only screen and (max-width: 700px) {
+  .details_content {
+    padding: 50px 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .who_i_am,
+  .what_i_do {
+    margin-right: 0;
+    padding-right: 0;
+
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-right: 0px;
+    border-bottom: 2px solid #247ba0;
+  }
 }

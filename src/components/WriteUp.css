@@ -1,6 +1,7 @@
 .write_up_container {
   position: relative;
-  width: 1200px;
+  max-width: 1200px;
+  min-width: 360px;
   margin: 0 auto;
 }
 

@@ -14,13 +14,6 @@
   border-bottom: 2px solid #247ba0;
 }
 
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-}
-
 .backdrop {
   height: 60vh;
   /* Remove height once image is in place  */
@@ -47,4 +40,12 @@
 
 .footer {
   border-top: 1px solid #247ba0;
+}
+
+/* responsiveness */
+
+@media only screen and (max-width: 700px) {
+  .write_up {
+    height: auto;
+  }
 }
