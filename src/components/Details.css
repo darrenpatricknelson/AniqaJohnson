@@ -1,13 +1,15 @@
 .details_container {
-  max-width: 1200px;
-  min-width: 360px;
-  margin: 0 auto;
+  position: relative;
+  height: 80vh;
 }
 
 .details_content {
   padding: 50px 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1200px;
+  min-width: 360px;
+  margin: 0 auto;
 }
 
 .who_i_am,
@@ -46,6 +48,9 @@
 /* responsiveness */
 
 @media only screen and (max-width: 700px) {
+  .details_container {
+    position: inherit;
+  }
   .details_content {
     padding: 50px 20px;
     display: grid;

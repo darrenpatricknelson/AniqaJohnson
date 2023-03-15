@@ -1,7 +1,7 @@
 import './Spacer.css';
 
-const Spacer = () => {
-    return <div id='grief_loss' className='spacer'></div>;
+const Spacer = ({ id }) => {
+    return <div id={id} className='spacer'></div>;
 };
 
 export default Spacer;

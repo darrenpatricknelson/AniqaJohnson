@@ -4,7 +4,7 @@ import './WriteUp.css';
 
 const WriteUp = () => {
     return <div className='write-up-container'>
-        <Spacer />
+        <Spacer id={'grief_loss'} />
 
         <div className="write_up_content">
             <h2>Grief <span className="text-color">& Loss</span></h2>
