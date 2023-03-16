@@ -1,6 +1,7 @@
+import React from 'react';
 import './Details.css';
 import Form from './Form.js';
-import Spacer from './Spacer.js';
+import Spacer from './Spacer';
 
 const Details = () => {
     return <div className='details-container'>
