@@ -1,35 +1,39 @@
 .details-container {
   position: relative;
-  /* can possibly delete the height once you've played around with the content height  */
-  height: 78vh;
+  display: flex;
+  align-items: center;
 }
 
 .details-content {
   padding: 50px 20px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
   max-width: 1200px;
   min-width: 360px;
-  margin: 0 auto;
+  margin: 42px auto;
+}
+
+.details-content p {
+  font-size: 18px;
 }
 
 /* headings */
 .secondary-heading {
   font-size: 28px;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
+/* blocks of content */
 .who-i-am,
 .what-i-do {
-  margin-right: 20px;
-  padding-right: 20px;
+  margin-right: 10px;
   border-right: 2px solid #247ba0;
 }
 
 .who-i-am,
 .what-i-do,
 .get-in-touch {
+  padding: 20px;
   width: 400px;
 }
 
@@ -60,24 +64,19 @@
 }
 
 /* responsiveness */
-
 @media only screen and (max-width: 700px) {
   .details-container {
     height: auto;
   }
   .details-content {
-    padding: 50px 20px;
+    margin: 0;
+    padding: 20px;
     display: flex;
     flex-direction: column;
   }
 
   .who-i-am,
   .what-i-do {
-    margin-right: 0;
-    padding-right: 0;
-
-    margin-bottom: 20px;
-    padding-bottom: 20px;
     border-right: 0px;
     border-bottom: 2px solid #247ba0;
   }
@@ -85,8 +84,19 @@
   .who-i-am,
   .what-i-do,
   .get-in-touch {
+    margin: 0;
     width: 100%;
     padding-top: 20px;
     position: relative;
+  }
+
+  .who-i-am,
+  .what-i-do {
+    margin-bottom: 20px;
+  }
+
+  /* headings */
+  .secondary-heading {
+    text-align: center;
   }
 }

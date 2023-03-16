@@ -1,6 +1,5 @@
 .form {
-  max-width: 200px;
-  border: 1px solid red;
+  max-width: 400px;
 }
 
 form {
@@ -31,7 +30,19 @@ button {
   width: 100px;
   border-radius: 15px;
   outline: none;
+  border: 2px solid #247ba060;
+  background-color: #247ba060;
+  font-size: 16px;
+  font-weight: 600;
+  color: #185975;
+}
+
+button:hover {
+  cursor: pointer;
   border: 2px solid #247ba0;
+  background-color: #247ba0;
+  color: #fff;
+  text-decoration: underline;
 }
 
 /* responsiveness */
