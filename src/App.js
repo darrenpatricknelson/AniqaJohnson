@@ -1,8 +1,9 @@
 import './App.css';
-import Details from './components/Details.js';
-import Footer from './components/Footer.js';
-import Navbar from './components/Navbar.js';
-import WriteUp from './components/WriteUp.js';
+import React from "react";
+import Details from './components/Details';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import WriteUp from './components/WriteUp';
 import logo from './images/ocean.jpg';
 
 function App() {

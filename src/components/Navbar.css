@@ -15,6 +15,10 @@
   z-index: 1;
 }
 
+.mobile-menu {
+  z-index: 2;
+}
+
 .nav-background {
   background-color: #247ba0a0;
   backdrop-filter: blur(10px);
@@ -78,6 +82,7 @@
   color: #247ba0;
 }
 
+
 /* ----- responsiveness ------  */
 @media only screen and (max-width: 700px) {
   /* --------------links menu ------------ */
@@ -92,6 +97,10 @@
     position: absolute;
     top: 0;
     transition: ease-in-out 0.5s;
+  }
+
+  .mobile-hidden {
+    display: none;
   }
 
   .nav-list {
@@ -119,6 +128,7 @@
     height: 20px;
     position: absolute;
     right: 1rem;
+    z-index: 3;
   }
 
   .burger-menu {
@@ -136,6 +146,17 @@
     height: 0.2rem;
     background-color: #fff;
     border-radius: 0.5rem;
+  }
+
+  .menu {
+    width: 80%;
+    height: 100vh;
+    background-color: #247ba0a0;
+    backdrop-filter: blur(10px);
+    border-radius: 1rem 0 0 0;
+    position: fixed;
+    top: 0;
+    transition: ease-in-out 0.5s;
   }
 
   /* animations */
