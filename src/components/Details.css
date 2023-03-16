@@ -1,46 +1,54 @@
-.details_container {
+.details-container {
   position: relative;
+  /* can possibly delete the height once you've played around with the content height  */
   height: 80vh;
 }
 
-.details_content {
+.details-content {
   padding: 50px 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   max-width: 1200px;
   min-width: 360px;
   margin: 0 auto;
 }
 
-.who_i_am,
-.what_i_do {
+.who-i-am,
+.what-i-do {
   margin-right: 20px;
   padding-right: 20px;
   border-right: 2px solid #247ba0;
 }
 
-.contact_details {
+.who-i-am,
+.what-i-do,
+.get-in-touch {
+  width: 400px;
+}
+
+.contact-details {
   margin: 10px 0 0;
 }
 
 /*  */
-.contact_details li {
+.contact-details li {
   list-style-type: none;
   margin: 10px;
 }
 
-.contact_details p:hover {
+.contact-details p:hover {
   cursor: pointer;
   color: #fff;
 }
 
 /* navbar links */
-.contact_details p a {
+.contact-details p a {
   color: #247ba0;
   text-decoration: none;
 }
 
-.contact_details p a:hover {
+.contact-details p a:hover {
   border-bottom: 1px solid #247ba0;
   cursor: pointer;
 }
@@ -48,18 +56,18 @@
 /* responsiveness */
 
 @media only screen and (max-width: 700px) {
-  .details_container {
+  .details-container {
     position: inherit;
     height: auto;
   }
-  .details_content {
+  .details-content {
     padding: 50px 20px;
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
   }
 
-  .who_i_am,
-  .what_i_do {
+  .who-i-am,
+  .what-i-do {
     margin-right: 0;
     padding-right: 0;
 
@@ -67,5 +75,11 @@
     padding-bottom: 20px;
     border-right: 0px;
     border-bottom: 2px solid #247ba0;
+  }
+
+  .who-i-am,
+  .what-i-do,
+  .get-in-touch {
+    width: 100%;
   }
 }

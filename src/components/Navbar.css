@@ -84,6 +84,14 @@
   .menu {
     display: flex;
     align-items: center;
+    width: 80%;
+    height: 100vh;
+    background-color: #247ba0a0;
+    backdrop-filter: blur(10px);
+    border-radius: 1rem 0 0 0;
+    position: absolute;
+    top: 0;
+    transition: ease-in-out 0.5s;
   }
 
   .nav-list {
@@ -128,17 +136,6 @@
     height: 0.2rem;
     background-color: #fff;
     border-radius: 0.5rem;
-  }
-
-  .menu {
-    width: 80%;
-    height: 100vh;
-    background-color: #247ba0a0;
-    backdrop-filter: blur(10px);
-    border-radius: 1rem 0 0 0;
-    position: absolute;
-    top: 0;
-    transition: ease-in-out 0.5s;
   }
 
   /* animations */
