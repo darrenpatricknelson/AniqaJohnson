@@ -29,6 +29,7 @@ const Navbar = () => {
 
     return (
         <nav className={scrollPosition === 0 ? 'nav' : 'nav nav-background'}>
+            {/* title of the website */}
             <div className="nav-container">
                 <div className='nav-title-container'>
                     <div className="nav-title">
@@ -39,9 +40,7 @@ const Navbar = () => {
                     </div>
                 </div>
 
-
-
-
+                {/* List of links  */}
                 <div className={menu_class}>
                     <ul className='nav-list'>
                         <li><a href='#top' className='nav-link' onClick={updateMenu}>Home</a></li>
@@ -54,6 +53,7 @@ const Navbar = () => {
 
 
             </div>
+            {/* burger menu for mobile devices */}
             <div className="burger-container">
                 <div className="burger-menu" onClick={updateMenu}>
                     <div className={burger_class}></div>
