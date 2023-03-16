@@ -1,10 +1,12 @@
 .footer_container {
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
+  border-top: 2px solid #ffffff60;
 }
 
 .footer_content h6 {
   padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* responsiveness */

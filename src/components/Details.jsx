@@ -10,7 +10,7 @@ const Details = () => {
             {/* Who i am block */}
             <div className="who-i-am">
                 <Spacer id={'who_i_am'} />
-                <h3>Who <span className="text-color">I am</span></h3>
+                <h3 className='secondary-heading'>Who <span className="text-color">I am</span></h3>
                 <div className='space-border'></div>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus suscipit impedit qui nemo inventore alias eligendi distinctio, delectus aperiam reiciendis, provident praesentium adipisci, commodi mollitia quo laudantium laborum ea.</p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus suscipit impedit qui nemo inventore alias eligendi distinctio, delectus aperiam reiciendis, provident praesentium adipisci, commodi mollitia quo laudantium laborum ea.</p>
@@ -19,7 +19,7 @@ const Details = () => {
             {/* What I do block */}
             <div className="what-i-do">
                 <Spacer id={'what_i_do'} />
-                <h3>What <span className="text-color">I do</span></h3>
+                <h3 className='secondary-heading'>What <span className="text-color">I do</span></h3>
                 <div className='space-border'></div>
 
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus suscipit impedit qui nemo inventore alias eligendi distinctio, delectus aperiam reiciendis, provident praesentium adipisci, commodi mollitia quo laudantium laborum ea.</p>
@@ -29,7 +29,7 @@ const Details = () => {
             {/* Get in touch block */}
             <div className="get-in-touch">
                 <Spacer id={'get_in_touch'} />
-                <h3>Get <span className="text-color">in touch</span></h3>
+                <h3 className='secondary-heading'>Get <span className="text-color">in touch</span></h3>
                 <div className='space-border'></div>
                 <div className="contact-details">
                     <p><a href='#.'>Phone number</a></p>

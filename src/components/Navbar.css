@@ -15,6 +15,10 @@
   z-index: 1;
 }
 
+.menu {
+  border-bottom: 2px solid transparent;
+}
+
 .mobile-menu {
   z-index: 2;
 }
@@ -82,7 +86,6 @@
   color: #247ba0;
 }
 
-
 /* ----- responsiveness ------  */
 @media only screen and (max-width: 700px) {
   /* --------------links menu ------------ */
@@ -92,6 +95,7 @@
     width: 80%;
     height: 100vh;
     background-color: #247ba0a0;
+    border-left: 2px solid #fff;
     backdrop-filter: blur(10px);
     border-radius: 1rem 0 0 0;
     position: absolute;
@@ -126,8 +130,9 @@
   /* --------------burger ------------ */
   .burger-container {
     height: 20px;
-    position: absolute;
-    right: 1rem;
+    position: fixed;
+    right: 2rem;
+    top: 4rem;
     z-index: 3;
   }
 
@@ -188,5 +193,11 @@
 
   .visible {
     right: 0%;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .mobile-menu {
+    display: none;
   }
 }

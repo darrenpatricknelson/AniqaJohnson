@@ -8,7 +8,7 @@ const Form = () => {
                 <input type="text" id="name" placeholder='Name' /><br />
                 <input type="email" id="email" placeholder='Email' /><br />
                 <textarea type="text" id="message" placeholder='Message' />
-                <br /><br />
+                <br />
                 <button type="submit" form="form1" value="Submit">Submit</button>
             </form>
         </div>

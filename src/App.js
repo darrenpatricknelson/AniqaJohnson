@@ -1,5 +1,5 @@
-import './App.css';
 import React from "react";
+import './App.css';
 import Details from './components/Details';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';

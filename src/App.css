@@ -9,30 +9,21 @@
 }
 
 .space-border {
-  height: 1px;
-  width: 30px;
+  width: 60px;
   border-bottom: 2px solid #247ba0;
 }
 
 .backdrop {
   height: 60vh;
-  /* Remove height once image is in place  */
-  /* potentially add a margin  */
-  text-align: center;
-  border-bottom: 1px solid #247ba03d;
+}
+
+.backdrop-img {
+  border-bottom: 2px solid #ffffff60;
 }
 
 .backdrop-img {
   height: 60vh;
   width: 100%;
-}
-
-.details {
-  margin: 20px;
-}
-
-.footer {
-  border-top: 1px solid #247ba0;
 }
 
 /* responsiveness */
