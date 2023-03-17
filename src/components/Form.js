@@ -4,11 +4,12 @@ import './Form.css';
 
 const Form = () => {
     const form = useRef();
-    // emailJS email function 
+    // emailJS email function  
+    // To update future email templates, go here: https://dashboard.emailjs.com/admin/templates
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+        emailjs.sendForm('service_avlnsjc', 'template_3z2ow7r', form.current, 'bfoCR4p_6ODAEhkmD')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -57,7 +58,7 @@ const Form = () => {
         if (!validRegex.test(userEmail)) return setEmailValidation('Please enter a valid email');
 
         // if all validations pass, send email 
-        sendEmail();
+        sendEmail(e);
 
 
         setSuccessValidation('Thank you for making contact.\n I will get to you as soon as I can.');
@@ -68,7 +69,7 @@ const Form = () => {
 
     return (
         <div className="form">
-            <form>
+            <form ref={form}>
                 <input type="text" name="user_name" placeholder='Name' value={userName} onChange={(e) => setUserName(e.target.value)} />
                 <pre className='errorValidation'>{nameValidation}</pre>
                 <br />
