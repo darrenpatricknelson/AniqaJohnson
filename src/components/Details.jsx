@@ -12,8 +12,13 @@ const Details = () => {
                 <Spacer id={'who_i_am'} />
                 <h3 className='secondary-heading'>Who <span className="text-color">I am</span></h3>
                 <div className='space-border'></div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus suscipit impedit qui nemo inventore alias eligendi distinctio, delectus aperiam reiciendis, provident praesentium adipisci, commodi mollitia quo laudantium laborum ea.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus suscipit impedit qui nemo inventore alias eligendi distinctio, delectus aperiam reiciendis, provident praesentium adipisci, commodi mollitia quo laudantium laborum ea.</p>
+                <p>I am a HPCSA Registered Counsellor (PRC 0041947). I have a BPsych Degree (Honours) from The
+                    South African College of Applied Psychology.</p>
+                <p>I have interned at Groote Schuur's Adolescent Centre of Excellence and Kuils River's Hope House
+                    Counselling Centre. I have counselled clients from all ages and backgrounds, facilitated groups,
+                    provided workshops, mindfulness and employee wellness.</p>
+                <p>I have a passion for counselling and my main priority is to provide a safe space for all my clients
+                    while they reach their counselling goals.</p>
             </div>
 
             {/* What I do block */}
@@ -22,8 +27,15 @@ const Details = () => {
                 <h3 className='secondary-heading'>What <span className="text-color">I do</span></h3>
                 <div className='space-border'></div>
 
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus suscipit impedit qui nemo inventore alias eligendi distinctio, delectus aperiam reiciendis, provident praesentium adipisci, commodi mollitia quo laudantium laborum ea.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus suscipit impedit qui nemo inventore alias eligendi distinctio, delectus aperiam reiciendis, provident praesentium adipisci, commodi mollitia quo laudantium laborum ea.</p>
+                <p>No individual is alike; therefore, no client is alike. That is why I aim to provide the best counselling
+                    journey for all my clients; by providing them the space to tell their own story at their own pace.</p>
+                <p>I provide services for online one-on-one sessions to individuals of all ages and employee wellness to
+                    businesses.</p>
+                <p>All online sessions will be conducted on Google Meets and a new link will be sent to each client
+                    before their session.</p>
+                <p>Each session is sixty minutes and will cost R600 a session. The first session will include an intake,
+                    where we get to know one another and you will be able to ask questions. Thereafter a counselling
+                    program will be discussed and developed in accordance to your needs.</p>
             </div>
 
             {/* Get in touch block */}
@@ -32,11 +44,10 @@ const Details = () => {
                 <h3 className='secondary-heading'>Get <span className="text-color">in touch</span></h3>
                 <div className='space-border'></div>
                 <div className="contact-details">
-                    <p><a href='#.'>Phone number</a></p>
-                    <p><a href='#.'>email</a></p>
-                    <p><a href='#.'>address</a></p>
+                    <p><a href='tel:+2176 923 9857'>076 923 9857</a></p>
+                    <p><a href='mailto:aniqajohnsoncounselling@gmail.com'>aniqajohnsoncounselling@gmail.com</a></p>
                 </div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus illum labore ut id alias eius. Hic blanditiis asperiores rerum ab?</p>
+                <p>To contact Aniqa Johnson Counselling and/or request a session, complete the form bellow:</p>
                 <Form />
             </div>
         </div>

@@ -8,10 +8,18 @@ const WriteUp = () => {
         <Spacer id={'grief_loss'} />
 
         <div className="write-up-content">
-            <h2 className='primary-heading'>Grief <span className="text-color">& Loss</span></h2>
+            <h2 className='primary-heading'>Mental <span className="text-color">health</span></h2>
             <div className='space-border'></div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sapiente at sint maxime provident a unde doloremque voluptate excepturi dolor! Sed praesentium omnis reiciendis fugit, quas quisquam repellendus impedit veritatis nesciunt nisi doloribus dolore ut, saepe neque est aspernatur! Fugit earum illum debitis beatae ipsam consectetur, ullam dolor quo voluptate non eius voluptates modi id perspiciatis dolore, atque laudantium quibusdam!</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellendus suscipit impedit qui nemo inventore alias eligendi distinctio, delectus aperiam reiciendis, provident praesentium adipisci, commodi mollitia quo laudantium laborum ea.</p>
+            <p>Mental health includes emotional, psychological, and social well-being and affects how we think,
+                feel, and act. Mental health plays a role in determining how one manages stress, connects with
+                other individuals and the ability to make healthy choices. Mental health is important at every stage
+                of life, from childhood to adolescence and all the way through adulthood.
+                <br /><br />
+                <a href="https://www.cdc.gov/mentalhealth/learn/index.htm#:~:text=Mental%20health%20includes%20our
+                %20emotional,childhood%20and%20adolescence%20through%20adulthood">
+                    - Centers for DiseaseControl and Prevention
+                </a>
+            </p>
         </div>
     </div>;
 };

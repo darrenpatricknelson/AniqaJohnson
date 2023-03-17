@@ -6,11 +6,11 @@ import "./Navbar.css";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  // // check position of window
+  // check position of window
   const [scrollPosition, setScrollPosition] = useState(0);
 
   // function to determine background colour or not
-  window.onscroll = function(e) {
+  window.onscroll = function (e) {
     setScrollPosition(window.scrollY);
   };
 
@@ -26,7 +26,7 @@ const Navbar = () => {
               <h1>Aniqa Johnson</h1>
             </div>
             <div className="nav-title-description">
-              <h2>Grief, Loss & Trauma Counsellor</h2>
+              <h2>Mental Health Counsellor</h2>
             </div>
           </div>
 
