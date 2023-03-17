@@ -49,7 +49,7 @@ const Details = () => {
                     <p><a href='tel:+2176 923 9857'><FontAwesomeIcon icon={faMobileScreenButton} /> 076 923 9857</a></p>
                     <p><a href='mailto:aniqajohnsoncounselling@gmail.com'><FontAwesomeIcon icon={faEnvelope} /> aniqajohnsoncounselling@gmail.com</a></p>
                 </div>
-                <p>To contact Aniqa Johnson Counselling and/or request a session, complete the form bellow:</p>
+                <p>To contact Aniqa Johnson Counselling and/or request a session, complete the form below:</p>
                 <Form />
             </div>
         </div>
