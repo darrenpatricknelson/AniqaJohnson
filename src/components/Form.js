@@ -61,7 +61,7 @@ const Form = () => {
         sendEmail(e);
 
 
-        setSuccessValidation('Thank you for making contact.\n I will get to you as soon as I can.');
+        setSuccessValidation('Thank you for making contact.\n  I will contact you as soon as I can.');
         setUserName('');
         setUserEmail('');
         setUserMessage('');
