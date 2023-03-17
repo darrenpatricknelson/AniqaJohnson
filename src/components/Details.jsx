@@ -1,3 +1,5 @@
+import { faEnvelope, faMobileScreenButton } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Details.css';
 import Form from './Form.js';
@@ -44,8 +46,8 @@ const Details = () => {
                 <h3 className='secondary-heading'>Get <span className="text-color">in touch</span></h3>
                 <div className='space-border'></div>
                 <div className="contact-details">
-                    <p><a href='tel:+2176 923 9857'>076 923 9857</a></p>
-                    <p><a href='mailto:aniqajohnsoncounselling@gmail.com'>aniqajohnsoncounselling@gmail.com</a></p>
+                    <p><a href='tel:+2176 923 9857'><FontAwesomeIcon icon={faMobileScreenButton} /> 076 923 9857</a></p>
+                    <p><a href='mailto:aniqajohnsoncounselling@gmail.com'><FontAwesomeIcon icon={faEnvelope} /> aniqajohnsoncounselling@gmail.com</a></p>
                 </div>
                 <p>To contact Aniqa Johnson Counselling and/or request a session, complete the form bellow:</p>
                 <Form />
