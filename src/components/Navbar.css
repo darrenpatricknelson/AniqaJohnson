@@ -27,6 +27,17 @@
   background-color: #247ba0a0;
   backdrop-filter: blur(10px);
   border-bottom: 2px solid #fff;
+  animation: fadeBackgroundIn 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeBackgroundIn {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: #247ba0a0;
+  }
 }
 
 .nav-container {
