@@ -25,6 +25,14 @@
   text-transform: uppercase;
 }
 
+.mental-health-link {
+  color: #247ba0;
+}
+
+.mental-health-link:visited {
+  color: #247ba0;
+}
+
 /* -------- responsiveness -------- */
 @media only screen and (max-width: 700px) {
   .write-up-container {

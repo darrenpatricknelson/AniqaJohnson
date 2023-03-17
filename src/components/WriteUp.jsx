@@ -15,9 +15,9 @@ const WriteUp = () => {
                 other individuals and the ability to make healthy choices. Mental health is important at every stage
                 of life, from childhood to adolescence and all the way through adulthood.
                 <br /><br />
-                <a href="https://www.cdc.gov/mentalhealth/learn/index.htm#:~:text=Mental%20health%20includes%20our
-                %20emotional,childhood%20and%20adolescence%20through%20adulthood">
-                    - Centers for DiseaseControl and Prevention
+                <a className='mental-health-link' target={'_blank'} href="https://www.cdc.gov/mentalhealth/learn/index.htm#:~:text=Mental%20health%20includes%20our
+                %20emotional,childhood%20and%20adolescence%20through%20adulthood" rel="noreferrer">
+                    - <em>Centers for Disease Control and Prevention</em>
                 </a>
             </p>
         </div>
