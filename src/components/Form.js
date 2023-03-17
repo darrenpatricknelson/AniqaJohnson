@@ -1,11 +1,19 @@
-import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
+import React, { useRef, useState } from 'react';
 import './Form.css';
 
 const Form = () => {
-    const formValues = {
-        'name': '',
-        'email': '',
-        'message': ''
+    const form = useRef();
+    // emailJS email function 
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
     };
     // form values
     const [userName, setUserName] = useState('');
@@ -49,7 +57,8 @@ const Form = () => {
         if (!validRegex.test(userEmail)) return setEmailValidation('Please enter a valid email');
 
         // if all validations pass, send email 
-        /*  */
+        sendEmail();
+
 
         setSuccessValidation('Thank you for making contact.\n I will get to you as soon as I can.');
         setUserName('');
@@ -60,13 +69,13 @@ const Form = () => {
     return (
         <div className="form">
             <form>
-                <input type="text" id="name" placeholder='Name' value={userName} onChange={(e) => setUserName(e.target.value)} />
+                <input type="text" name="user_name" placeholder='Name' value={userName} onChange={(e) => setUserName(e.target.value)} />
                 <pre className='errorValidation'>{nameValidation}</pre>
                 <br />
-                <input type="email" id="email" placeholder='Email' value={userEmail} onChange={(e) => setUserEmail(e.target.value)} />
+                <input type="email" name="user_email" placeholder='Email' value={userEmail} onChange={(e) => setUserEmail(e.target.value)} />
                 <pre className='errorValidation'>{emailValidation}</pre>
                 <br />
-                <textarea type="text" id="message" placeholder='Message' value={userMessage} onChange={(e) => setUserMessage(e.target.value)} />
+                <textarea type="text" name="user_message" placeholder='Message' value={userMessage} onChange={(e) => setUserMessage(e.target.value)} />
                 <pre className='errorValidation'>{messageValidation}</pre>
                 <br />
                 <button type="submit" form="form1" value="Submit" onClick={formSubmit}>Submit</button>
