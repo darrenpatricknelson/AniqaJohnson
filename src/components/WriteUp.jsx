@@ -5,7 +5,7 @@ import './WriteUp.css';
 
 const WriteUp = () => {
     return <div className='write-up-container'>
-        <Spacer id={'grief_loss'} />
+        <Spacer id={'mental_health'} />
 
         <div className="write-up-content">
             <h2 className='primary-heading'>Mental <span className="text-color">health</span></h2>
