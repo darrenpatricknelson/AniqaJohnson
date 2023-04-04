@@ -77,10 +77,10 @@
 .nav-list {
   display: flex;
   list-style-type: none;
-  /* border: 3px solid blue; */
 }
 
 .nav-link {
+  display: block;
   color: #fff;
   font-weight: 500;
   font-size: 1.2rem;
@@ -88,6 +88,8 @@
   transition: 0.5s ease-in-out;
   border-bottom: 2px solid transparent;
   text-decoration: none;
+  width: 100%;
+  padding: 10px;
 }
 
 .nav-link:hover {
