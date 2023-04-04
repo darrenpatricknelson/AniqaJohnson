@@ -1,8 +1,7 @@
-import { faEnvelope, faMobileScreenButton } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import React from 'react';
+import Cover from '../images/cover.jpg';
 import './Details.css';
-import Form from './Form.js';
 import Spacer from './Spacer';
 
 const Details = () => {
@@ -16,11 +15,14 @@ const Details = () => {
                 <div className='space-border'></div>
                 <p>I am a HPCSA Registered Counsellor (PRC 0041947). I have a BPsych Degree (Honours) from The
                     South African College of Applied Psychology.</p>
-                <p>I have interned at Groote Schuur's Adolescent Centre of Excellence and Kuils River's Hope House
+                <p>Formal training completed at Groote Schuur's Adolescent Centre of Excellence and Kuils River's Hope House
                     Counselling Centre. I have counselled clients from all ages and backgrounds, facilitated groups,
                     provided workshops, mindfulness and employee wellness.</p>
                 <p>I have a passion for counselling and my main priority is to provide a safe space for all my clients
                     while they reach their counselling goals.</p>
+                <div className="cover-img-container">
+                    <img src={Cover} className="cover-img" alt="Image of Aniqa" />
+                </div>
             </div>
 
             {/* What I do block */}
@@ -35,22 +37,33 @@ const Details = () => {
                     businesses.</p>
                 <p>All online sessions will be conducted on Google Meets and a new link will be sent to each client
                     before their session.</p>
+                <p className="sub-heading"><strong><u>Individual counselling</u></strong></p>
                 <p>Each session is sixty minutes and will cost R600 a session. The first session will include an intake,
                     where we get to know one another and you will be able to ask questions. Thereafter a counselling
                     program will be discussed and developed in accordance to your needs.</p>
-            </div>
-
-            {/* Get in touch block */}
-            <div className="get-in-touch">
-                <Spacer id={'get_in_touch'} />
-                <h3 className='secondary-heading'>Get <span className="text-color">in touch</span></h3>
-                <div className='space-border'></div>
-                <div className="contact-details">
-                    <p><a href='tel:+2176 923 9857'><FontAwesomeIcon icon={faMobileScreenButton} /> 076 923 9857</a></p>
-                    <p><a href='mailto:aniqajohnsoncounselling@gmail.com'><FontAwesomeIcon icon={faEnvelope} /> aniqajohnsoncounselling@gmail.com</a></p>
-                </div>
-                <p>To contact Aniqa Johnson Counselling and/or request a session, complete the form below:</p>
-                <Form />
+                <p className="sub-heading"><strong><u>Employee wellness</u></strong></p>
+                <p>The services offered: </p>
+                <ul className='list-level-1'>
+                    <li>Containment sessions
+                    </li>
+                    <li>Individual sessions
+                    </li>
+                    <li>Team building workshops
+                    </li>
+                    <li>Mental Health workshops which can include the following topics:
+                        <br />
+                        <br />
+                        <ul className='list-level-1'>
+                            <li>Mindfulness</li>
+                            <li>Self-Care
+                            </li>
+                            <li>Emotional Well-being
+                            </li>
+                            <li>Stress Management</li>
+                            <li>Conflict Management</li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>;

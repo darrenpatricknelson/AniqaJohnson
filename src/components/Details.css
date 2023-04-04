@@ -9,7 +9,7 @@
   display: flex;
   max-width: 1200px;
   min-width: 360px;
-  margin: 42px auto;
+  margin: auto;
 }
 
 .details-content p {
@@ -23,44 +23,42 @@
   text-transform: uppercase;
 }
 
+.sub-heading {
+  color: #247ba0;
+}
+
+/* list levels */
+.list-level-1 {
+  margin-left: 25px;
+}
+
 /* blocks of content */
-.who-i-am,
-.what-i-do {
+.who-i-am {
   margin-right: 10px;
   border-right: 2px solid #247ba0;
 }
 
 .who-i-am,
-.what-i-do,
-.get-in-touch {
-  padding: 20px;
-  width: 400px;
+.what-i-do {
+  min-width: 300px;
+  max-width: 800px;
 }
 
-/* Contact details section */
-.contact-details {
-  margin: 10px 0 0;
+.who-i-am {
+  padding: 5px 10px 5px 5px;
+}
+.what-i-do {
+  padding: 5px;
 }
 
-.contact-details li {
-  list-style-type: none;
-  margin: 10px;
+/* Cover image */
+.cover-img-container {
+  display: flex;
+  align-items: center;
 }
-
-.contact-details p:hover {
-  cursor: pointer;
-  color: #fff;
-}
-
-/* navbar links */
-.contact-details p a {
-  color: #247ba0;
-  text-decoration: none;
-}
-
-.contact-details p a:hover {
-  border-bottom: 1px solid #247ba0;
-  cursor: pointer;
+.cover-img {
+  max-height: 400px;
+  margin: 0 auto;
 }
 
 /* responsiveness */
@@ -75,8 +73,7 @@
     flex-direction: column;
   }
 
-  .who-i-am,
-  .what-i-do {
+  .who-i-am {
     border-right: 0px;
     border-bottom: 2px solid #247ba0;
   }
