@@ -1,0 +1,57 @@
+/* Contact details section */
+.get-in-touch {
+  position: relative;
+  border-top: 2px solid #ffffff60;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.form-container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-heading {
+  text-align: center;
+}
+
+.form-border {
+  margin: 0 auto;
+}
+
+.contact-details {
+  margin: 10px 0 0;
+}
+
+.contact-details li {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.contact-details p:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+/* navbar links */
+.contact-details p a {
+  color: #247ba0;
+  text-decoration: none;
+}
+
+.contact-details p a:hover {
+  border-bottom: 1px solid #247ba0;
+  cursor: pointer;
+}
+
+/* responsiveness */
+@media only screen and (max-width: 700px) {
+  .get-in-touch {
+    margin: 0;
+    width: 100%;
+    padding-top: 20px;
+    position: relative;
+  }
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import ContactForm from './components/ContactForm';
 import Details from './components/Details';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
@@ -15,6 +16,7 @@ function App() {
       </div>
       <WriteUp />
       <Details />
+      <ContactForm />
       <Footer />
     </div>
   );
