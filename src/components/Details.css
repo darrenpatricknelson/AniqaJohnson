@@ -92,6 +92,11 @@
     margin-bottom: 20px;
   }
 
+  /* Cover image */
+  .cover-img-container {
+    margin: 30px auto;
+  }
+
   /* headings */
   .secondary-heading {
     text-align: center;
