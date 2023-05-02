@@ -35,6 +35,9 @@ const Details = () => {
                     journey for all my clients; by providing them the space to tell their own story at their own pace.</p>
                 <p>I provide services for online one-on-one sessions to individuals of all ages and employee wellness to
                     businesses.</p>
+                <p>In person and online sessions available:</p>
+
+                <p>In person sessions are held at <a href='http://maps.google.com/?q=7 Irene Ave, Jacques Hill, Cape Town, 7130' target='_blank' className='address'>7 Irene Ave, Jacques Hill, Cape Town, 7130</a> in room 1</p>
                 <p>All online sessions will be conducted on Google Meets and a new link will be sent to each client
                     before their session.</p>
                 <p className="sub-heading"><strong><u>Individual counselling</u></strong></p>

@@ -1,4 +1,4 @@
-import { faEnvelope, faMobileScreenButton } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faLocationDot, faMobileScreenButton } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './ContactForm.css';
@@ -17,6 +17,7 @@ const ContactForm = () => {
                 <div className="contact-details">
                     <p><a href='tel:+2176 923 9857'><FontAwesomeIcon icon={faMobileScreenButton} /> 076 923 9857</a></p>
                     <p><a href='mailto:aniqajohnsoncounselling@gmail.com'><FontAwesomeIcon icon={faEnvelope} /> aniqajohnsoncounselling@gmail.com</a></p>
+                    <p><a href='http://maps.google.com/?q=7 Irene Ave, Jacques Hill, Cape Town, 7130' target='_blank'><FontAwesomeIcon icon={faLocationDot} /> 7 Irene Ave, Jacques Hill, Cape Town, 7130</a></p>
                 </div>
                 <p>To contact Aniqa Johnson Counselling and/or request a session, complete the form below:</p>
                 <Form />
