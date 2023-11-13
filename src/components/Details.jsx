@@ -21,7 +21,7 @@ const Details = () => {
                 <p>I have a passion for counselling and my main priority is to provide a safe space for all my clients
                     while they reach their counselling goals.</p>
                 <div className="cover-img-container">
-                    <img src={Cover} className="cover-img" alt="Image of Aniqa" width={2269} height={2802} />
+                    <img src={Cover} className="cover-img" alt="Image of Aniqa" width={1024} height={1264} />
                 </div>
             </div>
 
