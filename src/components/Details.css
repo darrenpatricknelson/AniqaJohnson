@@ -58,6 +58,7 @@
 }
 .cover-img {
   max-height: 400px;
+  width: auto;
   margin: 0 auto;
 }
 
