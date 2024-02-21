@@ -26,7 +26,7 @@ const Navbar = () => {
               <h1>Aniqa Johnson</h1>
             </div>
             <div className="nav-title-description">
-              <h2>Mental Health Counsellor</h2>
+              <h2>Registered Counsellor</h2>
             </div>
           </div>
 
