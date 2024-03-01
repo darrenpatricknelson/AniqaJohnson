@@ -44,7 +44,7 @@ const Details = () => {
                 <p>Each session is sixty minutes and will cost R600 a session. The first session will include an intake,
                     where we get to know one another and you will be able to ask questions. Thereafter a counselling
                     program will be discussed and developed in accordance to your needs.</p>
-                <p className="sub-heading"><strong><u>Employee wellness</u></strong></p>
+                <p className="sub-heading"><strong><u>Employee, University and School Wellness</u></strong></p>
                 <p>The services offered: </p>
                 <ul className='list-level-1'>
                     <li>Containment sessions
@@ -53,12 +53,14 @@ const Details = () => {
                     </li>
                     <li>Team building workshops
                     </li>
-                    <li>Mental Health workshops which can include the following topics:
+                    <li>Mental Health workshops which can include, but not limited to, the following topics:
                         <br />
                         <br />
                         <ul className='list-level-1'>
                             <li>Mindfulness</li>
-                            <li>Self-Care
+                            <li>Self-Care and Self-esteem
+                            </li>
+                            <li>Time management
                             </li>
                             <li>Emotional Well-being
                             </li>
