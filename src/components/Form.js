@@ -10,8 +10,8 @@ const Form = () => {
         e.preventDefault();
 
         // https://www.emailjs.com/docs/rest-api/send-form/
-        // Post requst(Emailjs).function(sendForm)('service_id', 'template_id', 'form.current?', 'accessToken')
-        emailjs.sendForm('service_avlnsjc', 'template_l4o6f24', form.current, 'bfoCR4p_6ODAEhkmD')
+        // Post request(Emailjs).function(sendForm)('service_id', 'template_id', 'form.current?', 'accessToken')
+        emailjs.sendForm('service_el8ih73', 'template_l4o6f24', form.current, 'bfoCR4p_6ODAEhkmD')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
