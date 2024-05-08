@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Cover from '../images/cover.webp';
+import Cover from '../images/CoverImage.jpg';
 import './Details.css';
 import Spacer from './Spacer';
 
