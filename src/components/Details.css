@@ -103,6 +103,11 @@
   .cover-img-container {
     margin: 30px auto;
   }
+  .cover-img {
+    max-height: 400px;
+    width: auto;
+    margin: 0 auto;
+  }
 
   /* headings */
   .secondary-heading {
