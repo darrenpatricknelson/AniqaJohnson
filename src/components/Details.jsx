@@ -37,7 +37,7 @@ const Details = () => {
                     businesses.</p>
                 <p>In person and online sessions available:</p>
 
-                <p>In person sessions are held at <a href='https://www.google.com/maps/place/Aniqa+Johnson:+Registered+Counsellor/@-34.0911404,18.810274,18z/data=!3m1!4b1!4m6!3m5!1s0x1dcdb588e381d3f1:0xdd2e977c4a627017!8m2!3d-34.0911404!4d18.8115481!16s%2Fg%2F11l75f8bhd?entry=ttu' target='_blank'>Unit 103, M01, Baker Square, 18 De Beers Avenue, Paardevlei, 7130</a>.</p>
+                <p>In person sessions are held at <a href='https://www.google.com/maps/place/Aniqa+Johnson:+Registered+Counsellor/@-34.0911404,18.810274,18z/data=!3m1!4b1!4m6!3m5!1s0x1dcdb588e381d3f1:0xdd2e977c4a627017!8m2!3d-34.0911404!4d18.8115481!16s%2Fg%2F11l75f8bhd?entry=ttu' target='_blank' className='address'>Unit 103, M01, Baker Square, 18 De Beers Avenue, Paardevlei, 7130</a>.</p>
                 <p>All online sessions will be conducted on Google Meets and a new link will be sent to each client
                     before their session.</p>
                 <p className="sub-heading"><strong><u>Individual counselling</u></strong></p>
