@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Cover from '../images/conversation_corner.jpeg';
+import Cover from '../images/safespace2.jpeg';
 import Spacer from './Spacer';
 import './css/Details.css';
 
