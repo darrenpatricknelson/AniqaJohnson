@@ -1,6 +1,6 @@
 import emailjs from '@emailjs/browser';
 import React, { useRef, useState } from 'react';
-import './Form.css';
+import './css/Form.css';
 
 const Form = () => {
     const form = useRef();

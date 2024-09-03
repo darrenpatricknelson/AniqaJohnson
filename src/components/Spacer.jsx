@@ -1,5 +1,5 @@
 import React from "react";
-import "./Spacer.css";
+import "./css/Spacer.css";
 
 const Spacer = ({ id }) => <div id={id} className="spacer"></div>;
 

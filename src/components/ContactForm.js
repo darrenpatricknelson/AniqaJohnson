@@ -1,8 +1,8 @@
 import { faEnvelope, faLocationDot, faMobileScreenButton } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import './ContactForm.css';
-import './Details.css';
+import './css/ContactForm.css';
+import './css/Details.css';
 import Form from './Form.js';
 import Spacer from './Spacer';
 

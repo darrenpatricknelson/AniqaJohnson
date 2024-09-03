@@ -1,6 +1,6 @@
 import React from 'react';
 import Spacer from './Spacer';
-import './WriteUp.css';
+import './css/WriteUp.css';
 
 
 const WriteUp = () => {

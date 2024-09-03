@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Menu from "./Menu/Menu";
 import MobileMenu from "./Menu/MobileMenu";
-import "./Navbar.css";
+import "./css/Navbar.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

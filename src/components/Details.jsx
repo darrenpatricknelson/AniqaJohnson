@@ -1,8 +1,8 @@
 
 import React from 'react';
 import Cover from '../images/CoverImage.jpg';
-import './Details.css';
 import Spacer from './Spacer';
+import './css/Details.css';
 
 const Details = () => {
     return <div className='details-container'>
