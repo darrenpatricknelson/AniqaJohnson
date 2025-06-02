@@ -1,45 +1,41 @@
+/* Styles for the "Mental Health" write-up section */
 .write-up-container {
   position: relative;
-  height: 40vh;
+  height: 40vh; /* Viewport height for visual impact */
   padding: 20px 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 2px solid #ffffff60;
-  border-radius: 0 0 1rem 1rem;
+  border-bottom: 2px solid #ffffff60; /* Subtle bottom border */
+  border-radius: 0 0 1rem 1rem; /* Rounded bottom corners */
 }
 
 .write-up-content {
-  padding: 50px 20px;
+  padding: 50px 20px; /* Inner padding for content */
   max-width: 1200px;
   min-width: 360px;
 }
 
 .write-up-content p {
-  font-size: 18px;
+  font-size: 18px; /* Explicit font size */
 }
 
-.primary-heading {
-  font-size: 32px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
-
+/* Link specifically within this section */
 .mental-health-link {
-  color: #247ba0;
+  color: #247ba0; /* Accent color for the link */
 }
 
 .mental-health-link:visited {
-  color: #247ba0;
+  color: #247ba0; /* Keep accent color for visited links */
 }
 
-/* -------- responsiveness -------- */
+/* Responsiveness for WriteUp section */
 @media only screen and (max-width: 700px) {
   .write-up-container {
-    height: auto;
+    height: auto; /* Allow height to adjust on mobile */
   }
 
   .primary-heading {
-    text-align: center;
+    text-align: center; /* Center heading on mobile */
   }
 }

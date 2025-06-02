@@ -1,5 +1,6 @@
+/* Styles for the Spacer component, used for anchor links */
 .spacer {
   position: absolute;
-  height: 130px;
-  bottom: 100%;
+  height: 130px; /* Height matches navbar to offset content */
+  bottom: 100%; /* Positions it at the bottom of the parent */
 }

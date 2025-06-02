@@ -1,23 +1,22 @@
-.footer_container {
+/* Styles for the application footer */
+.footer-container {
+  /* Renamed from footer_container */
   width: 100%;
-  border-top: 2px solid #ffffff60;
+  border-top: 2px solid #ffffff60; /* Top border for visual separation */
   text-align: center;
 }
 
-.footer_content h6 {
+.footer-content h6 {
+  /* Renamed from footer_content */
   padding: 20px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto; /* Center footer content */
 }
 
-/* responsiveness */
-
+/* Responsiveness for Footer */
 @media only screen and (max-width: 700px) {
-  .footer_content h6 {
+  .footer-content h6 {
     padding: 20px 40px;
-  }
-
-  .footer_content h6 {
     font-size: 9px;
   }
 }
