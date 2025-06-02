@@ -1,0 +1,200 @@
+/* Styles for the Psychometric Assessment Section */
+.psychometric-assessment-section-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px 20px; /* Consistent with .details-content padding */
+  gap: 30px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 30px auto; /* Centering the block on the page */
+  background-color: #cfd8d7; /* Matches App.css background for main content area */
+  border-radius: 0;
+  box-shadow: none;
+  min-width: 360px; /* Consistent with .details-content */
+}
+
+/* Left Section: The First Step Block */
+.first-step-block {
+  min-width: 300px; /* Consistent with .who-i-am / .what-i-do */
+  max-width: 800px; /* Consistent with .who-i-am / .what-i-do */
+  margin-right: 10px; /* Consistent with .who-i-am */
+  border-right: 2px solid #247ba0; /* Consistent with .who-i-am */
+  padding: 5px 10px 5px 5px; /* Consistent with .who-i-am */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align contents to start */
+}
+
+/* Adjust space-border for proper alignment within its block */
+.first-step-block .space-border {
+  align-self: flex-start; /* Aligns the border to the start, matching heading */
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column for stacking */
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  margin-top: 20px; /* Add some space below the heading/border */
+}
+
+.image-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: white; /* White background for the image card */
+  border: 1px solid #ddd; /* Subtle border */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  border-radius: 4px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.placeholder-image {
+  width: 250px;
+  height: 180px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9em;
+  color: #888;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Specific colors for placeholder images (from uploaded images) */
+.psychometric-image {
+  background-color: #dbecf0; /* Blue-ish tint from image */
+}
+
+.assessments-image {
+  background-color: #e6dcd3; /* Green-ish/brown-ish tint from image */
+}
+
+.image-label {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 5px 15px;
+  font-size: 18px; /* Consistent with .details-content p */
+  font-weight: bold;
+  color: #333;
+  white-space: nowrap;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Right Section: Subject Choice Psychometric Package Block */
+.psychometric-package-block {
+  min-width: 300px; /* Consistent with .who-i-am / .what-i-do */
+  max-width: 800px; /* Consistent with .who-i-am / .what-i-do */
+  padding: 5px; /* Consistent with .what-i-do */
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.psychometric-package-block p {
+  font-size: 18px; /* Consistent with .details-content p */
+}
+
+.package-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #247ba0; /* Accent color for price */
+  text-align: center; /* Center the price */
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.package-includes-list {
+  margin-left: 25px; /* Consistent with .list-level-1 */
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.package-includes-list li {
+  margin-bottom: 8px;
+  line-height: 1.4;
+  color: #333;
+}
+
+.package-description {
+  font-size: 18px; /* Consistent with .details-content p */
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Responsiveness for Psychometric Assessment Section */
+@media only screen and (max-width: 700px) {
+  .pschometric-assessment-section-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+  }
+
+  .first-step-block {
+    flex: none;
+    width: 100%;
+    max-width: none;
+    margin-right: 0;
+    border-right: 0;
+    border-bottom: 2px solid #247ba0; /* Consistent with .who-i-am mobile style */
+    margin-bottom: 20px;
+    padding-top: 20px;
+    position: relative;
+  }
+
+  /* Adjust heading alignment for mobile in this block */
+  .first-step-block .secondary-heading {
+    align-self: flex-start;
+    text-align: left;
+    width: 100%;
+  }
+
+  /* Adjust space-border for mobile in this block */
+  .first-step-block .space-border {
+    align-self: flex-start;
+    margin: 0 0 20px 0; /* Adjust margin for mobile to be left aligned */
+  }
+
+  .psychometric-package-block {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .package-price {
+    font-size: 18px;
+  }
+
+  .image-grid {
+    gap: 15px;
+  }
+
+  .image-item {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .placeholder-image {
+    width: 100%;
+    height: 120px;
+  }
+
+  .image-label {
+    font-size: 1.2em;
+    bottom: 15px;
+  }
+}
