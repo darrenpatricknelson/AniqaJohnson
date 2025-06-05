@@ -4,7 +4,7 @@ import ContactForm from "./components/ContactForm";
 import Details from "./components/Details";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import PsychometricAssessmentSection from "./components/PsychometricAssessmentSection";
+// import PsychometricAssessmentSection from "./components/PsychometricAssessmentSection";
 import Packages from "./components/Packages"; // UPDATED: Import Packages component
 import WriteUp from "./components/WriteUp";
 import logo from "./images/ocean.webp"; // Main backdrop image
@@ -29,7 +29,7 @@ function App() {
       </div>
       <WriteUp />
       <Details />
-      <PsychometricAssessmentSection />
+      {/* <PsychometricAssessmentSection /> */}
       <Packages /> {/* UPDATED: Render Packages component here */}
       <ContactForm />
       <Footer />
