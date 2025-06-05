@@ -84,7 +84,7 @@ const Details = () => {
             </strong>
           </p>
           <p>
-            Each session is sixty minutes and will cost R600 a session. The
+            Each session is sixty minutes and will cost R650 a session. The
             first session will include an intake, where we get to know one
             another and you will be able to ask questions. Thereafter a
             counselling program will be discussed and developed in accordance to
