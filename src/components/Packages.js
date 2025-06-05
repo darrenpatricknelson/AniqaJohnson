@@ -13,7 +13,7 @@ const Packages = () => {
     {
       id: 1,
       heading: "The First Step",
-      price: "R1,800 - R2,200",
+      price: "R2000",
       target:
         "For Grade 9 learners choosing subjects, or anyone beginning to explore a path",
       description: {
@@ -31,7 +31,7 @@ const Packages = () => {
     {
       id: 2,
       heading: "Pathfinder",
-      price: "R2,400 - R2,800",
+      price: "R2,800",
       target:
         "For high schooler, recent matriculants, or young adults needing career or study direction",
       description: {
@@ -48,7 +48,7 @@ const Packages = () => {
     {
       id: 3,
       heading: "Crossroads",
-      price: "R3,200 - R4,200",
+      price: "R3,200",
       target:
         "For adults navigating a career shift, burnout, or life re-alignment",
       description: {

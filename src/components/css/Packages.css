@@ -46,6 +46,12 @@
   align-items: flex-start;
   text-align: left;
   font-family: "Nunito Sans", sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.package-card:hover {
+  transform: translateY(-5px); /* Lift card slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
 }
 
 .package-card-heading {
