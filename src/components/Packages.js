@@ -74,8 +74,8 @@ const Packages = () => {
         </h3>
         <div className="space-border"></div>
         <p className="packages-description">
-          Explore the various counselling and wellness packages designed to
-          support your journey.
+          Explore the various psychometric packages designed to support your
+          journey.
         </p>
       </div>
       <div className="packages-grid">
