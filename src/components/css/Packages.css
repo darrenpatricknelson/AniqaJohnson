@@ -1,0 +1,126 @@
+/* Styles for the Packages Section (Updated to match Image 2) */
+.packages-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 30px auto;
+  background-color: #cfd8d7;
+  position: relative;
+}
+
+.packages-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.packages-header .space-border {
+  margin: 10px auto 20px auto;
+}
+
+.packages-description {
+  font-size: 16px;
+  max-width: 700px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.packages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+.package-card {
+  background-color: #f8f9fa; /* Light gray background */
+  border: 1px solid #e9ecef; /* Light gray border */
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-family: "Nunito Sans", sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.package-card:hover {
+  transform: translateY(-5px); /* Lift card slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+}
+
+.package-card-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #247ba0; /* Accent color for heading */
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.package-card-target {
+  font-size: 16px;
+  color: #6c757d; /* Gray color for price */
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.package-card-price {
+  font-size: 16px;
+  color: #247ba0; /* Accent color for heading */
+  margin-bottom: 15px;
+  align-self: center;
+}
+
+.package-card-text {
+  font-size: 14px;
+  color: #495057; /* Slightly darker gray for body text */
+  line-height: 1.7;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.package-card-text:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive Adjustments */
+@media only screen and (max-width: 700px) {
+  .packages-section-container {
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+  }
+
+  .packages-header {
+    margin-bottom: 25px;
+  }
+
+  .packages-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .package-card {
+    padding: 20px;
+  }
+
+  .package-card-heading {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .package-card-price {
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+
+  .package-card-text {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+}

@@ -1,7 +1,7 @@
-/* Contact details section */
+/* Styles for the "Get in Touch" contact section */
 .get-in-touch {
   position: relative;
-  border-top: 2px solid #ffffff60;
+  border-top: 2px solid #ffffff60; /* Top border for visual separation */
   padding: 20px;
   width: 100%;
   display: flex;
@@ -9,7 +9,7 @@
 
 .form-container {
   width: 500px;
-  margin: 0 auto;
+  margin: 0 auto; /* Center the form container */
   text-align: center;
 }
 
@@ -17,25 +17,32 @@
   text-align: center;
 }
 
-.form-border {
-  margin: 0 auto;
+/* Specific border for the contact form heading */
+.contact-form-border {
+  /* Renamed for specificity */
+  margin: 0 auto; /* Center the border */
 }
 
 .contact-details {
   margin: 10px 0 0;
+  padding: 0; /* Ensure no default padding from ul/ol */
+  list-style: none; /* Remove list bullets for pure icon/text */
 }
 
 .contact-details li {
-  list-style-type: none;
-  margin: 10px;
+  margin: 10px 0; /* Consistent vertical spacing */
+}
+
+.contact-details p {
+  margin: 0; /* Remove default p margin here as it's inside li */
 }
 
 .contact-details p:hover {
   cursor: pointer;
-  color: #fff;
+  color: #247ba0; /* Changed hover color to match accent for consistency */
 }
 
-/* navbar links */
+/* Styles for links within contact details */
 .contact-details p a {
   color: #247ba0;
   text-decoration: none;
@@ -46,7 +53,7 @@
   cursor: pointer;
 }
 
-/* responsiveness */
+/* Responsiveness for the contact section */
 @media only screen and (max-width: 700px) {
   .get-in-touch {
     margin: 0;
