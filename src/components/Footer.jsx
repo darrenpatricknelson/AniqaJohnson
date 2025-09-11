@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-content">
-        <h6>© Copyright - Aniqa Johnson Counselling | Darren Nelson WebDesigns</h6>
+        <h6>© Copyright - Aniqa Johnson Counselling | Darren Nelson WebDesigns QA</h6>
       </div>
     </div>
   );

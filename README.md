@@ -17,5 +17,3 @@ Step 2: Run 'npm install'
 
 Step 3: Run 'npm start' to boot up a live server
     - Once all the files have been installed, run 'npm start' to boot up a server
-
-Vercel is already set up so once the repo is cloned and all the files installed, once you push changes to github, it will automatically deploy to vercel
