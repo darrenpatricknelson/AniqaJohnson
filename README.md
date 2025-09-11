@@ -17,12 +17,3 @@ Step 2: Run 'npm install'
 
 Step 3: Run 'npm start' to boot up a live server
     - Once all the files have been installed, run 'npm start' to boot up a server
-
-Step 4: Rebase codebase to QA
-    - run 'git checkout <branch name>'
-    - Run 'git checkout qa'
-    - This will change the branch from prod to qa 
-
-Step 5: Make changes, commit and push
-    - Vercel is already set up so once the repo is cloned and all the files installed, once you push changes to github, it will automatically deploy to vercel
-    - These changes will deploy on the QA branch which you can use to demo to Aniqa 
