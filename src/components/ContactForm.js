@@ -45,14 +45,13 @@ const ContactForm = () => {
           </p>
           <p>
             <a
-              href="https://www.google.com/maps/place/Aniqa+Johnson:+Registered+Counsellor/@-34.0911404,18.810274,18z/data=!3m1!4b1!4m6!3m5!1s0x1dcdb588e381d3f1:0xdd2e977c4a627017!8m2!3d-34.0911404!4d18.8115481!16s%2Fg%2F11l75f8bhd?entry=ttu"
+              href="https://www.google.com/maps/place/17+Bright+St,+Audas+Estate,+Cape+Town,+7130/data=!4m2!3m1!1s0x1dcdb57c847910c5:0x266cd842933919d?sa=X&ved=1t:242&ictx=111"
               target="_blank"
               rel="noreferrer noopener"
             >
               {" "}
               {/* Added rel */}
-              <FontAwesomeIcon icon={faLocationDot} /> Unit 103, M01, Baker
-              Square <br /> 18 De Beers Avenue, Paardevlei, 7130
+              <FontAwesomeIcon icon={faLocationDot} /> 17 Bright Street, Somerset West, 7130, Room 5
             </a>
           </p>
         </div>

@@ -26,3 +26,13 @@ Step 4: Rebase codebase to QA
 Step 5: Make changes, commit and push
     - Vercel is already set up so once the repo is cloned and all the files installed, once you push changes to github, it will automatically deploy to vercel
     - These changes will deploy on the QA branch which you can use to demo to Aniqa 
+
+Step 6: Create a Pull request
+    - On the Prod branch on github, create a PR
+    - Click on pull requets and create new pull request
+    - Base = Prod. Compare = qa
+    - Create PR and Merge
+
+This will automatically deploy to vercel Production and be live for Aniqa
+
+And just like that, you're setup and ready to work from any pc
