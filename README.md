@@ -36,3 +36,101 @@ Step 6: Create a Pull request
 This will automatically deploy to vercel Production and be live for Aniqa
 
 And just like that, you're setup and ready to work from any pc
+
+
+----------------------------------------
+
+Layout:
+- Images folder
+    - Conversstion corner (Old - Image over 2 couches)
+    - Cover (Old - Image of Aniqa) 
+    - Cover Image (Old - Image of Aniqa)
+    - Doorway (Old - Image of old office space doorway)
+    - Kitchen (Old - Image of old office space Kitchen)
+    - Lamp and couch (Old - Image of old office space lamp and space)
+    - ocean (Old - Backdrop of ocean)
+    - Office (Old - Image of old office space)
+    - Safe space (Old - Image of old office space safe space)
+    - Safe space 2 (Old - Image of old office space Safe space different angle)
+    - Single couch (Old - Image of old office space single couch)
+    - Window (Old - Image of old office space window)
+- App.js file 
+    - Ocean backdrop 
+    - Import segments 
+- Navbar
+    - Navigation bar at the top of the webpage
+    - Always present
+    - Web to phone scalable 
+- Write up 
+    - Mental health write-up
+- Details 
+    - Who I am segment
+    - What I do segment 
+- Physchometric assessment section 
+    - Packages segment 
+    - Cotains the 3 packages (The first step, Pathfinder and Crossroads)
+    - Packages 
+        - Contains the write up for the 3 packages
+        - In a seperate folder so that updating the packages information is easier
+        - Exported into the Physchometric assessment section
+- Contact Form
+    - Contact form for users to contact Aniqa
+    - Form 
+        - Actual form
+        - Exports into Contact form 
+- Footer
+    - Footer with random information 
+    - Only visible at the end 
+    
+- Spacer 
+    - Spacer between segments 
+- Review corousel 
+    - unused
+
+-----------------------------------------
+
+September 19 2025
+- Going to be updating the entire website
+- The layout and colours will be changing 
+- New images will be added to the image folder 
+    - Images will have a v2 tag 
+
+Updates
+- Update to the README file
+    - Added information about the layout of the webpage
+    - Added updates to the segments that were update
+- Image folder
+    - Added cover Image v2 (Image of Aniqa on a couch - New backdrop)
+- App.js file 
+    - Changed the backdrop from Ocean back drop to Image of Aniqa on a couch
+- Navbar (No changes so far)
+    - Navigation bar at the top of the webpage
+    - Always present
+    - Web to phone scalable 
+- Write up 
+    - Added a new write up (About Aniqa Johnson)
+    - Changed colour Pallete? 
+    - Added a new image (Double couch layout) above mental health write up? 
+- Details (No changes so far)
+    - Who I am segment
+    - What I do segment 
+- Physchometric assessment section (No changes so far)
+    - Packages segment 
+    - Cotains the 3 packages (The first step, Pathfinder and Crossroads)
+    - Packages 
+        - Contains the write up for the 3 packages
+        - In a seperate folder so that updating the packages information is easier
+        - Exported into the Physchometric assessment section
+- Contact Form (No changes so far)
+    - Contact form for users to contact Aniqa
+    - Form 
+        - Actual form
+        - Exports into Contact form 
+- Footer (No changes so far)
+    - Footer with random information 
+    - Only visible at the end 
+    
+- Spacer (No changes so far)
+    - Spacer between segments 
+- Review corousel (No changes so far)
+    - unused

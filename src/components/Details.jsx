@@ -1,5 +1,6 @@
 import React from "react";
-import Cover from "../images/safespace2.jpeg"; // Image specific to this section
+import Cover from "../images/CoverImagev2.jpg"; // Image specific to this section
+import Cover2 from "../images/new_office.jpg"; // Image specific to this section
 import Spacer from "./Spacer";
 import "./css/Details.css"; // Component specific styles
 
@@ -35,13 +36,24 @@ const Details = () => {
             goals.
           </p>
           <div className="cover-img-container">
-            <img
-              src={Cover}
-              className="cover-img"
-              alt="Image of a cozy conversation corner representing a safe space"
-              width={1024}
-              height={1264}
-            />
+            <div>
+              <img
+                src={Cover}
+                className="cover-img"
+                alt="Image of a cozy conversation corner representing a safe space"
+                width={1024}
+                height={1264}
+              />
+            </div>
+            <div>
+              <img
+                src={Cover2}
+                className="cover-img2"
+                alt="Image of a cozy conversation corner representing a safe space"
+                width={1024}
+                height={1264}
+              />
+            </div>
           </div>
         </div>
 
@@ -65,12 +77,12 @@ const Details = () => {
           <p>
             In person sessions are held at{" "}
             <a
-              href="https://www.google.com/maps/place/Aniqa+Johnson:+Registered+Counsellor/@-34.0911404,18.810274,18z/data=!3m1!4b1!4m6!3m5!1s0x1dcdb588e381d3f1:0xdd2e977c4a627017!8m2!3d-34.0911404!4d18.8115481!16s%2Fg%2F11l75f8bhd?entry=ttu"
+              href="https://www.google.com/maps/place/17+Bright+St,+Audas+Estate,+Cape+Town,+7130/data=!4m2!3m1!1s0x1dcdb57c847910c5:0x266cd842933919d?sa=X&ved=1t:242&ictx=111"
               target="_blank"
               className="address"
               rel="noreferrer noopener" // Added rel
             >
-              Unit 103, M01, Baker Square, 18 De Beers Avenue, Paardevlei, 7130
+              17 Bright Street, Somerset West, 7130, Room 5
             </a>
             .
           </p>
@@ -84,7 +96,7 @@ const Details = () => {
             </strong>
           </p>
           <p>
-            Each session is sixty minutes and will cost R650 a session. The
+            Each session is sixty minutes and will cost R 700 a session. The
             first session will include an intake, where we get to know one
             another and you will be able to ask questions. Thereafter a
             counselling program will be discussed and developed in accordance to

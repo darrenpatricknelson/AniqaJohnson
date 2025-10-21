@@ -42,10 +42,16 @@
 /* Cover image styling */
 .cover-img-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 .cover-img {
-  max-height: 550px;
+  max-height: 300px;
+  width: auto;
+  margin: 0 auto; /* Center image within its container */
+}
+.cover-img2 {
+  max-height: 285px;
   width: auto;
   margin: 0 auto; /* Center image within its container */
 }
